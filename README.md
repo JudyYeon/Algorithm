@@ -1,6 +1,5 @@
 # ‍💻 **Algorithm Study ‍💻**
 
-# **[ 📋 정보 ]**
 ### This Project is Algorithm learning repository aimed at employment and job change
 
 # **[ 🚫 규칙 ]**
