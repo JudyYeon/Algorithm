@@ -1,52 +1,52 @@
 package week03.twoPointer;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.Scanner;
+import java.util.StringTokenizer;
 
 public class PS1940 {
-
     /*
      * title : 주몽
      * url : https://www.acmicpc.net/problem/1940
+     *
+     *  [ 효율성 ]
+     *  - 메모리: 15904 KB
+     *  - 시간 : 164	ms
      * */
 
-    // 선택하고자 하는 대상 집합.
-    static int[] target;
-    // 대상 숫자를 담아둘 배열.
-    static int[] result = new int[2];
-    static int num = 0;
-    static int m;
+    public static void main(String[] args) throws IOException {
 
-    public static void main(String[] args) {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int n = Integer.parseInt(br.readLine());
+        int m = Integer.parseInt(br.readLine());
 
-        Scanner sc = new Scanner(System.in);
+        int[] arr = new int[n];
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        for (int i = 0; i < n; i++) {
+            arr[i] = Integer.parseInt(st.nextToken());
+        }
+        Arrays.sort(arr);
+        int start_point = 0;
+        int end_point = n - 1;
+        int count = 0;
 
-        int n = sc.nextInt();
-        m = sc.nextInt();
+        while (arr[start_point] < arr[end_point]) {
 
-        target = new int[n];
+            if (arr[start_point] + arr[end_point] < m) {
+                start_point++;
 
-        combination(0, 0); // 처음부터 탐색하겠다는 뜻
-        System.out.println(num);
-    }
+            } else if (arr[start_point] + arr[end_point] == m) {
+                count++;
+                start_point++;
 
-    // 조합 메서드(cnt는 선택 횟수, idx는 다음 대상을 선택할때 집합에서 탐색을 시작할 인덱스).
-    private static void combination(int cnt, int idx) {
-        // 2개를 선택했으므로, 결과를 출력하고 재귀를 종료한다.
-        if (cnt == 2) {
-            System.out.println(Arrays.toString(result));
+            } else {
+                end_point--;
 
-            for(int i=0; i < result.length; i++){
-                if(result[i] + result[i+1] == 9) num++;
             }
-            return;
         }
-        // 대상 집합을 주어진 인덱스부터 순회하며 숫자를 하나 선택한다.
-        for (int i = idx; i < 3; i++) {
-            // 숫자를 담는다.
-            result[cnt] = target[i];
-            // 자신을 재귀 호출한다(자신 이전의 수를 중복 선택하지 않도록 인덱스를 +1하여 재귀를 호출한다).
-            combination(cnt + 1, i + 1);
-        }
+        System.out.println(count);
+
     }
 }

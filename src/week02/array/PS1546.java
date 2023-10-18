@@ -32,6 +32,9 @@ public class PS1546 {
             avg += score[i];
         }
         avg /= n;
+
+        sc.close();
+
         System.out.println(avg);
 
     }

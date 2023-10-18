@@ -23,6 +23,7 @@ public class PS11720 {
         for(int i = 0; i < n; i++){
             sum += arr[i] - 48;
         }
+        sc.close();
         System.out.println(sum);
 
     }
