@@ -48,6 +48,6 @@ public class PS11659 {
 
         }
 
-
+        sc.close();
     }
 }
