@@ -6,6 +6,10 @@ public class PS11720 {
     /*
     * title : 숫자의 합
     * url : https://www.acmicpc.net/problem/11720
+    *
+     *  [ 효율성 ]
+     *  - 메모리: 17724 KB
+     *  - 시간 : 208	ms
     * */
     public static void main(String[] args){
 

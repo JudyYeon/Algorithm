@@ -6,6 +6,10 @@ public class PS2018 {
     /*
      * title : 수들의 합5
      * url : https://www.acmicpc.net/problem/2018
+     *
+     *  [ 효율성 ]
+     *  - 메모리: 12884 KB
+     *  - 시간 : 108	ms
      * */
     public static void main(String[] args) {
 

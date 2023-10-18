@@ -6,6 +6,10 @@ public class PS1546 {
     /*
      * title : 평균
      * url : https://www.acmicpc.net/problem/1546
+     *
+     *  [ 효율성 ]
+     *  - 메모리: 15904 KB
+     *  - 시간 : 164	ms
      * */
     public static void main(String[] args){
 

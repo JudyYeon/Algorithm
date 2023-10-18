@@ -8,6 +8,10 @@ public class PS11659 {
     /*
      * title : 구간 합 구하기 4
      * url : https://www.acmicpc.net/problem/11659
+     *
+     *  [ 효율성 ]
+     *  - 메모리: 257016 KB
+     *  - 시간 : 2480 ms
      * */
     public static void main(String[] args){
 
