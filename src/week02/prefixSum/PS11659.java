@@ -1,4 +1,4 @@
-package week02.array;
+package week02.prefixSum;
 
 import java.util.ArrayList;
 import java.util.List;
