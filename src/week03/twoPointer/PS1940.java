@@ -12,8 +12,8 @@ public class PS1940 {
      * url : https://www.acmicpc.net/problem/1940
      *
      *  [ 효율성 ]
-     *  - 메모리: 15904 KB
-     *  - 시간 : 164	ms
+     *  - 메모리: 15100 KB
+     *  - 시간 : 144	ms
      * */
 
     public static void main(String[] args) throws IOException {
