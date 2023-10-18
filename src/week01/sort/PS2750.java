@@ -1,4 +1,4 @@
-package Sort;
+package week01.sort;
 
 import java.util.Arrays;
 import java.util.Scanner;
