@@ -1,17 +1,14 @@
 # [ Week 1. 회고록 ]
-- 작성일: 10월 01일
+- 작성일: 10.01
+- 최종 수정일 : 10.18
 
 <br/>
 
 # [ To - DO ]
 - 과제: 백준 해당 알고리즘 문제 풀어보기
-    - url: https://www.acmicpc.net/problem/tags
+    - 정렬 : https://www.acmicpc.net/step/9
     
-
-- 공부한 것 Git push + 회고록 남기기
-    - Git: https://github.com/JudyYeon/Algorithm
-    - 한줄 회고록: 
-
+    
 <br/>
 
 # [ ISSUE ]
