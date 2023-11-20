@@ -17,7 +17,7 @@ public class PS14713 {
 
     static int N;
     static Queue<String> Q[];
-    static Queue<String> T = new LinkedList<String>();
+    static Queue<String> T = new LinkedList<>();
 
     public void InputData() {
         Scanner sc = new Scanner(System.in);
@@ -30,8 +30,8 @@ public class PS14713 {
         for (int i=0; i<N; i++) {
             String str = sc.nextLine();
             String s[] = str.split(" ");
-            for (int j=0; j<s.length; j++) {
-                Q[i].add(s[j]);
+            for (String value : s) {
+                Q[i].add(value);
             }
         }
         String tmp = sc.nextLine();
@@ -46,7 +46,6 @@ public class PS14713 {
             String word = T.poll();
             boolean found = false;
             for (int i=0; i<N; i++) {
-                //System.out.println(word+" / "+Q[i].peek());
                 if (word.equals(Q[i].peek())) {
                     Q[i].poll();
                     found = true;
@@ -69,8 +68,7 @@ public class PS14713 {
     public static void main(String[] args)
     {
         PS14713 m = new PS14713();
-        m.InputData();///입력
-        //코드를 작성하세요
+        m.InputData();
         m.Solve();
     }
 }
