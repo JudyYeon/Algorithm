@@ -11,8 +11,8 @@ public class PS14713 {
      * url : https://www.acmicpc.net/problem/14713
      *
      *  [ 효율성 ]
-     *  - 메모리:  48968KB
-     *  - 시간 :   268ms
+     *  - 메모리:  29280KB
+     *  - 시간 :   504ms
      * */
 
     static int N;
