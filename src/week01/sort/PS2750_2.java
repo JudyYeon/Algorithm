@@ -6,8 +6,8 @@ public class PS2750_2 {
   /*
    * title : 수 정렬하기
    * url : https://www.acmicpc.net/problem/2750
-   * 메모리 : 22276KB
-   * 시간 : 368ms
+   * 메모리 : 22276 KB
+   * 시간 : 368 ms
    * */
   public static void main(String[] args) {
 
