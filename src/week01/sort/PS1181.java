@@ -1,8 +1,10 @@
+package week01.sort;
+
 import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.Scanner;
 
-public class Main {
+public class PS1181 {
 
   public static String[] wordList;
   public static int N;
