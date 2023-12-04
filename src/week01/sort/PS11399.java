@@ -1,3 +1,4 @@
+package week01.sort;
 import java.util.Scanner;
 
 public class PS11399 {
