@@ -6,8 +6,8 @@
 
 # [ To - DO ]
 - 과제: 백준 해당 알고리즘 문제 풀어보기
-    - 너비우선탐색 BFS : [https://www.acmicpc.net/problemset?sort=ac_desc&algo=126](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126)
-    - 깊이우선탐색 DFS : [https://www.acmicpc.net/problemset?sort=ac_desc&algo=127](https://www.acmicpc.net/problemset?sort=ac_desc&algo=127)
+    - 너비우선탐색 BFS : https://www.acmicpc.net/problemset?sort=ac_desc&algo=126
+    - 깊이우선탐색 DFS : https://www.acmicpc.net/problemset?sort=ac_desc&algo=127
 
 
 <br/>
