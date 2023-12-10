@@ -1,12 +1,13 @@
 # [ Week 5. 회고록 ]
 - 최초 작성일: 11.28
-- 최종 작성일: 12.03
+- 최종 작성일: 12.10
 
 <br/>
 
 # [ To - DO ]
 - 과제: 백준 해당 알고리즘 문제 풀어보기
-    - 정렬 : [https://www.acmicpc.net/problemset?sort=ac_desc&algo=72](https://www.acmicpc.net/problem/2750)
+    - 너비우선탐색 BFS : [https://www.acmicpc.net/problemset?sort=ac_desc&algo=126](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126)
+    - 깊이우선탐색 DFS : [https://www.acmicpc.net/problemset?sort=ac_desc&algo=127](https://www.acmicpc.net/problemset?sort=ac_desc&algo=127)
 
 
 <br/>
