@@ -1,78 +1,48 @@
-# ‍💻 Algorithm Study ‍💻
+# 🚀 알고리즘 스터디
 
-### This Project is Algorithm learning repository aimed at employment and job change
+이 저장소는 **Java**를 사용하여 알고리즘 문제 풀이를 정리하는 공간입니다.  
+혼자 체계적으로 문제를 풀고 기록하며 성장하기 위해 스터디 규칙과 계획을 작성했습니다.
 
-<br/>
+---
 
-# [ 🚫 규칙 ]
-### 📌 디렉토리 구조
+## 📝 목표
 
-       ├ 📦패키지
-       ⎮    ├ 📁알고리즘 회차 디렉토리                ex) Week1, Week2,...
-       ⎮    ⎮       ├ 📁알고리즘 분류                ex) Array, Sort, Greedy, ...
-       ⎮    ⎮       ⎮   ├ 📃문제번호                 ex) PS1919, PS2750, ...
-       ⎮    ⎮       ⎮   ├ 📃문제번호         
-       ⎮    ⎮       ⎮   ├ 📃문제번호
-       ⎮    ⎮       ⎮   ├ 📃문제번호
-       ⎮    ⎮       ⎮   ├ 📃...
-       ⎮    ⎮       ├ 📝README.md (스터디 history)
-       ├ 📝README.md (스터디 관련 설명 README)
+- 주요 알고리즘과 자료구조 유형을 학습
+- 문제 풀이를 통해 문제 해결력 및 구현 능력 향상
+- 효율적인 코드 작성 및 코드 최적화 연습
+- 풀이 히스토리와 회고를 통한 성장을 기록
 
+## 📁 디렉토리 구조
 
-### 📌 파일 규칙
+```text
+📦 src.main.java
+├── 📁 algorithm
+│ ├── 📁 array
+│ ├── 📁 bfs
+│ ├── ...
+├── 📁 history
+│ ├── 📁 week01
+│ │ └── 📝 README.md ← Week1 풀이 요약 및 회고
+│ ├── ...
+│ │ 
+├── 📁 note
+│ │
+└── 📝 README.md ← 스터디 전체 설명 및 가이드
+```
 
-       1. 파일명 양식: PS문제번호
-   
-           ex) PS7777.java
+## 📌 파일 규칙
 
-       2. 해당 풀이에 대한 시간 및 메모리 사용량 기재
-           
-           ex) /**
-                *  [ 효율성 ]
-                *  - 메모리: 20176KB
-                *  - 시간 : 404ms
-               */
-<br/>
+- **파일명:** `PS문제번호.java`
+    - 예: `PS1919.java`
 
-### 📌 문제 선정 방법
-- Online Judge site 활용하여 문제선정.
-- 한 주차에 1문제씩 선택하되, 익숙해지면 문제를 늘려갈 예정.
-- 해당 주차 알고리즘으로 풀이가 가능한 문제로 선택.
-- 난이도에 대한 별도의 기준은 없음.
+- **코드 상단 주석 작성**
+  ```java
+  /**
+   * [효율성]
+   * - 메모리: 20176KB
+   * - 시간 : 404ms
+   *
+   * [풀이 설명]
+   * - 주요 접근 방법 및 핵심 로직 간략 설명
+   */
 
-<br/>
-
-# [ 📑 ‍참고자료 ]
-#### 1. 나동빈 <이것이 취업을 위한 코딩 테스트다 with 파이썬> -한빛미디어
-#### 2. Do it! 알고리즘 with Java -이지스퍼블리싱
-
-<br/>
-
-# [ 🗓 일정 ]
-### [ 1주차 ]
-- 분류: -
-- 일자: 2023.10.01 ~ 2023.10.08
-- 문제: README 작성 및 알고리즘 스터디 방향성 결정
-
-### [ 2주차 ]
-- 분류: Array
-- 일자: 2023.10.09 ~ 2023.10.15
-- 문제: 
-
-  
-|No|플랫폼|문제번호|문제명|
-|-|----|-----|-----|
-|1|이코테|번호없음|change|
-
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0001-two-sum](https://github.com/JudyYeon/Algorithm/tree/master/0001-two-sum) |
-## Hash Table
-|  |
-| ------- |
-| [0001-two-sum](https://github.com/JudyYeon/Algorithm/tree/master/0001-two-sum) |
-<!---LeetCode Topics End-->
