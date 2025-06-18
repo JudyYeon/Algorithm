@@ -14,4 +14,4 @@
 
 ## 📌 개선 포인트
 
-- [RefacorPoint.md](WIKI/RefacorPoint.md)
+- [RefactorPoint.md](WIKI/RefactorPoint.md)
