@@ -14,4 +14,4 @@
 
 ## 📌 개선 포인트
 
-- [RefacorPoint.md](history/RefacorPoint.md)
+- [RefacorPoint.md](RefacorPoint.md)
